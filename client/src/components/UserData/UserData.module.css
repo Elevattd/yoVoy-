@@ -1,0 +1,129 @@
+.container {
+    background: rgb(234 79 36 / 31%);
+    height: 350px;
+    margin-left: 380px;
+    margin-right: 345px;
+    border-radius: 25px;
+}
+
+.container_h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container_p_h4 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.bg1 {
+    display: flex;
+    gap: 50px;
+}
+
+.into_p_h4 {
+    background-color: #ffffff5c;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    box-shadow: 3px 3px 15px 10px;
+}
+
+.container_org {
+    background-color: #ffffff5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    color: #000;
+    box-shadow: 3px 3px 15px 10px;
+    width: 550px;
+    margin-left: 27%;
+}
+
+
+.icon2 {
+    width: 100px;
+    height: 60px;
+}
+
+.icon3 {
+    width: 100px;
+    height: 40px;
+}
+
+
+@media (max-width:1440px) {
+    .into_p_h4 {
+        width: 245px;
+    }
+
+    .container_org {
+        margin-left: 12%;
+        width: 542px;
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        height: 575px;
+    }
+
+    .bg1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_org {
+        margin-left: 9%;
+        width: 247px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        margin-top: -15px;
+        height: 550px;
+        margin-left: 210px;
+        margin-right: 201px;
+    }
+
+    .container_org {
+        margin-left: 55px;
+        width: 247px;
+    }
+}
+
+@media (max-width:425px){
+    .container{
+        background: rgba(163, 159, 159, 0.425);
+        margin-left: 70px;
+        margin-right: 50px;
+    }
+    .container_org {
+        margin-left: 30px;
+        width: 247px;
+    }
+}
+
+@media (max-width:375px){
+    .container{
+        background: rgba(163, 159, 159, 0.425);
+        margin-left: 40px;
+        margin-right: 28px;
+    }
+    .container_org {
+        margin-left: 30px;
+        width: 247px;
+    }
+}
+
+

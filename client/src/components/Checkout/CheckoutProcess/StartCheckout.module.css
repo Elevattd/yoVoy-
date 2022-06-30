@@ -1,0 +1,83 @@
+.container{
+    background: url(../../../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    color: #fff;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 60px;
+    margin-right: 100px;
+}
+
+.line{
+    width: 81%;
+    height: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.678);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(12%);
+}
+
+.nav_startPayment{
+    color: rgb(235, 155, 36);
+    font-size: 1.3rem;
+}
+
+.productsContainerBg{
+    display: flex;
+    justify-content: center;
+}
+
+.productsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+
+
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.buttonPassBg{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttonPass{
+    width: 250px;
+    background: #1746ae98;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 7px 13px 37px #000;
+}
+
+@media (max-width:425px){
+    .total{
+        font-size: 1.1rem;
+    }
+    .ul{
+        margin-left: 60px;
+    }
+}

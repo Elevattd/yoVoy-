@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
+
+.navbar {
+    height: 10vh;
+    /* width: 100%; */
+    background: rgba(253, 109, 69, 0.507);
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 35% 45% 20%;
+    align-items: center;
+    /* padding-left: 5em;
+    padding-right: 10em; */
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.454);
+    box-shadow: 7px 13px 20px #000;
+
+}
+
+.navbar_bg_mid {
+    margin-left: 80px;
+
+}
+
+.navbar-log {
+    width: 20%;
+    margin-left: 100px;
+}
+
+.navbar-log img {
+    height: 6em;
+    width: 6em;
+}
+
+/* .navbar_bg_ul{
+    margin-left: -10%;
+}
+
+.navbar_bg_ul {
+    padding-right: -30%;
+} */
+
+.navbar_bg_li {
+    list-style-type: none;
+    display: inline-block;
+    /* padding: 20px 30px; */
+    position: relative;
+    margin: 0 20px;
+
+}
+
+.navbar_bg_li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s ease-out;
+}
+
+.navbar_bg_li:hover:before {
+    width: 100%;
+}
+
+.navbar_bg_a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+
+}
+
+
+.prueba_btn {
+    display: flex;
+}
+
+.container_buttons {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.icon {
+    width: 50px;
+    margin-left: -5px;
+}
+
+.navBar-btn-login {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    background: #1746ae98;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 7px 13px 37px #000;
+    transition: all 0.1s ease-out;
+}
+
+.navBar-btn-register {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    background: #1746ae98;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 7px 13px 37px #000;
+    transition: all 0.1s ease-out;
+}
+
+.navBar-btn-login:hover {
+    background: #171ad8bd;
+}
+
+.navBar-btn-register:hover {
+    background: #171ad8bd;
+}
+
+@media (max-width:1600px) {
+    .navbar-log {
+       margin-top: -8px;
+
+    }
+}
+
+
+@media (max-width:1440px) {
+    /* .navbar {
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+
+    } */
+
+    .navbar_bg_mid {
+        display: flex;
+        /* width: max-content; */
+        margin-left: 25px;
+    }
+
+    .prueba_btn {
+        margin-left: 15px;
+    }
+
+    .navbar-log {
+        margin-left: 15%;
+    }
+
+    .navbar-log img {
+        height: 5em;
+        width: 5em;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .navbar {
+        display: contents;
+    }
+
+    .navbar_bg_mid {
+        display: contents;
+        margin-left: 150px;
+    }
+
+    .navbar_bg_ul {
+        width: auto;
+        padding-left: 0%;
+        margin-left: 350px;
+    }
+
+    .prueba_btn {
+        margin-left: 380px;
+    }
+
+    .navbar-log img {
+        margin-left: 45%;
+        height: 5em;
+        width: 5em;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar {
+        display: contents;
+
+    }
+
+    .navbar_bg_ul {
+        width: 200px;
+        display: grid;
+        padding-left: 0%;
+        margin-left: 330px;
+    }
+
+    .prueba_btn {
+        margin-left: 260px;
+    }
+
+    .navbar-log img {
+        margin-left: 45%;
+        height: 5em;
+        width: 5em;
+    }
+}
+
+
+@media (max-width:425px) {
+    .navbar {
+        display: contents;
+
+    }
+
+    .navbar_bg_ul {
+        width: 200px;
+        display: grid;
+        padding-left: 0%;
+        margin-left: 160px;
+    }
+
+    .prueba_btn {
+        margin-left: 100px;
+    }
+
+    .navbar-log img {
+        margin-left: 170px;
+        height: 5em;
+        width: 5em;
+    }
+}
+
+@media (max-width:375px) {
+    .navbar {
+        display: contents;
+    }
+
+    .navbar_bg_ul {
+        width: 200px;
+        display: grid;
+        padding-left: 0%;
+        margin-left: 35%;
+    }
+
+    .prueba_btn {
+        margin-left: 12%;
+    }
+
+    .navbar-log img {
+        margin-left: 40%;
+        height: 5em;
+        width: 5em;
+    }
+}

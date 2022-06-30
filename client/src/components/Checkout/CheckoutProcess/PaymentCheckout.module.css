@@ -1,0 +1,140 @@
+.container {
+	background: url(../../../img/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+	overflow: auto;
+	color: #fff;
+}
+
+.ul {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	list-style: none;
+	gap: 60px;
+	margin-right: 100px;
+}
+
+.line {
+	width: 81%;
+	height: 0.5rem;
+
+	margin-top: 3em;
+	margin-bottom: 3em;
+	left: 50%;
+	border-radius: 50%;
+	transform: translate(12%);
+}
+
+.containerBg {
+	display: flex;
+	color: grey;
+	align-content: flex-start;
+}
+.containerBg h4 {
+	flex-basis: 100%;
+	text-align: center;
+}
+
+.tickets {
+	width: 500px; /* or whatever width you want. */
+	background-color: #ffe8cd;
+	border-top-color: black;
+	border-style: solid;
+	border-width: 0.3px;
+}
+.containerDetails {
+	background-color: #ffe8cd;
+	/* border-color: black;
+	border-style: solid;
+	border-style: none; */
+}
+.sendbg {
+	display: flex;
+	width: 500px;
+	flex-direction: column;
+
+	background-color: #ffe8cd;
+}
+.sendbg2 {
+	padding-bottom: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.nav_startPayment {
+	color: rgb(235, 155, 36);
+	font-size: 1.3rem;
+}
+
+.productsContainerBg {
+	display: flex;
+	justify-content: center;
+}
+
+.productsContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 500px;
+}
+
+.mercadoPago img {
+	display: flex;
+
+	height: 6em;
+	width: 6em;
+	border: 1px;
+
+	align-items: center;
+	margin-left: 40%;
+}
+.mercadoPago {
+	border-width: 1px;
+	background-color: #ffd19b;
+	width: 500px;
+}
+
+.buttonPassBg {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.buttonPass {
+	width: 250px;
+	background: #1746ae98;
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 7px 13px 37px #000;
+}
+
+@media (max-width: 425px) {
+	.productsContainerBg {
+		display: flex;
+		flex-direction: column;
+		margin-left: 50px;
+	}
+
+	.mercadoPago {
+		margin-left: 110px;
+	}
+
+	.buttonPassBg {
+		display: flex;
+		flex-direction: column;
+		margin-left: 80px;
+	}
+
+	.ul {
+		margin-left: 60px;
+	}
+}

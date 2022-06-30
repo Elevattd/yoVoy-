@@ -1,0 +1,64 @@
+.container {
+	/* display: contents; */
+	/* display: column;
+	grid-template-columns: 10% 10% 10% 10%;
+	justify-content: space-evenly;
+	gap: 10px;
+	margin-right: auto; */
+	text-align: center;
+	color: #fff;
+  background-color: rgba(0, 0, 0, 0.753);
+  height: auto;
+  min-height: 89vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.cardEvent {
+  display: flex;
+  width: 80%;
+  height: auto;
+  padding: 30px 0px 50px 0px;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fieldset_event_detail{
+	border-color: rgba(255, 255, 255, 0.62);
+    border: 9px groove (internal value);
+    border-radius: 7px;
+	background-color: rgba(240, 255, 255, 0.059);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 750px;
+}
+
+.fieldset_event_content{
+  padding: 30px;
+  font-size: 1rem;
+}
+
+.fieldset_event_img{
+  width: 50%;
+  min-width: 375px;
+  height: auto;
+}
+
+@media(max-width: 768px){
+  .fieldset_event_detail{
+    flex-direction: column;
+    width: 350px;
+  }
+  .fieldset_event_img{
+    min-width: 350px;
+    height: auto;
+  }
+}

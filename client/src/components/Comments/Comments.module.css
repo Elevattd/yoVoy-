@@ -1,0 +1,68 @@
+.container{
+ 
+    width: 450px;
+    margin-top: 50px;
+}
+
+.container_btn1{
+    display: flex;
+    justify-content: center;
+  }
+  
+
+.btn_1{
+    width: 250px;
+    background: #5817ae98;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.textarea{
+    width: 350px;
+    height: 80px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: sans-serif
+}
+
+.btn_2{
+    width: 250px;
+    margin-left: 65px;
+    margin-top: 10px;
+    background-color: rgba(147, 79, 24, 0.526);
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+  
+}
+.btn_2:hover{
+    background-color: rgba(241, 126, 31, 0.526);
+}
+
+.p{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width:425px){
+    .container{
+        width: 420px;
+        margin-top: 50px;
+    }
+    
+}

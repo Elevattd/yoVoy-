@@ -1,0 +1,23 @@
+.fondo {
+    background-color: #0a192f;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+.component {
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.envolment {
+    background-color: rgba(255, 235, 205, 0.035);
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 5px;
+}

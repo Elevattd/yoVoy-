@@ -1,0 +1,85 @@
+.bg {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+
+/* :root {
+    --clr-neon: rgb(0, 0, 0);
+    --clr-bg: rgb(0, 103, 248);
+} */
+
+/* ::before,
+::after {
+    box-sizing: border-box;
+} */
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    background: #1746ae98;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 7px 13px 37px #000;
+    transition:all 0.1s ease-out ;  
+}
+
+/* .btn::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    background: var(--clr-neon);
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.80em;
+
+    transform: perspective(0.9em)rotateX(30deg) scale(1, 0.35);
+    filter: blur(0.4em);
+} */
+
+/* .btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 2em 0.5em var(--clr-neon);
+    opacity: 0;
+    transition: opacity 100ms linear;
+    border-radius: 0.80em;
+} */
+
+.btn:hover {
+    background: #171ad8bd;
+}
+
+@media (max-width:1440px){
+    .bg{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:1024px){
+    .bg {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:768px) {
+    .bg {
+        display: flex;
+        justify-content: center;
+        margin-left: 5px;
+    }
+}

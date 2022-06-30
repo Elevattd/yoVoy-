@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container_bg{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container_tickets{
+    display: flex;
+    color: #fff;
+    width: 500px;
+}
+
+
+@media (max-width:1440px){
+    .container_tickets{
+        margin-left: 120px;
+    }
+}
+
+
+@media (max-width:1024px){
+    .container_tickets{
+        margin-left: 220px;
+    }
+}
+
+@media (max-width:768px){
+    .container_tickets{
+        margin-left:90px;
+    }
+}
+
+@media (max-width:425px){
+   .container_tickets{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 400px;
+   }
+}

@@ -1,0 +1,226 @@
+.container{
+    /* display: contents; */
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-right: 3%;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 25px;
+    
+}
+.divdeprueba{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    position: absolute;
+    left: -15px;
+    top:20px;
+    width: 100%; 
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+
+}
+.diva{
+    margin-top: 40px;
+}
+
+.divdeprueba h1{
+   font-size: 32px;
+   font-weight: 700;
+   color: #fff;
+   margin: 0 0 20px;
+   transform: translateY(30px);
+   opacity: 0;
+   transition: all 0.3s ease-out;
+}
+.divdeprueba a{
+    color: #fff;
+    background: #34aff3;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+/* .divh1{
+    margin-bottom: 100px;
+} */
+
+.divdeprueba a:hover{
+    background: #0e6290;
+}
+
+.divdeprueba a:hover{
+    background: #0e6290;
+}
+
+
+.divhover{
+    margin-left: 55px;
+    width: 650px;
+    background:radial-gradient(#111 50% #000 100%);
+    overflow: hidden;
+    position: relative;
+}
+
+ .divhover img{
+
+
+    object-fit: contain;
+
+
+    object-fit: contain;
+
+    width: 500px;
+    height: 300px;
+ }
+.divhover img{
+    transform: scale(1.3);
+    transition: all 0.3s ease-out;
+}
+.divhover:hover img{
+    transform: scale(1.5) translateY(-20px);
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.divhover:hover .divdeprueba h1{
+    opacity: 1;
+    transform: translateY(0);
+}
+.divhover:hover .divdeprueba a{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+ /* img{
+    max-width: 100%;
+    display: block;
+
+} */
+
+/* img:hover{
+    background-color: blue;
+    z-index: 1;
+    cursor: pointer;
+}  */
+
+
+@media  all and (max-width: 1440px){
+    .container{
+        display: grid;
+        grid-template-columns: 5% 5% 5%;
+        gap: 5px 150px;
+        margin-right: 300px;
+    }
+    .div1{
+        width: 1440px;
+        gap: 5px;
+        justify-content: flex-end;
+    }
+    .divhover{
+        margin-left: 15px;
+    }
+
+
+}
+
+@media all and (max-width: 1024px){
+    .container{
+        width: 1024px;
+        display: grid;
+        grid-template-columns: 50px 50px;
+        gap: 5px 10px;
+        margin-left: -140px;
+    }
+    .div1{
+        width: 1024px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .divhover{
+        margin-left: 230px;
+    }
+}
+
+@media all and (max-width:768px){
+    .container{
+        width: 768px;
+        display: grid;
+        grid-template-columns: 50px 50px;
+        gap: 5px 5px;
+        
+    }
+    .div1{
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -121px;
+    }
+    .divhover{
+        margin-left: 230px;
+    }
+}
+
+@media all and (max-width:425px){
+    .container{
+        width: 425px;
+        margin-left: -155px;
+        display: grid;
+        grid-template-columns: 50px ;
+        gap: 5px 110px;
+        margin-right: 350px;
+    }
+    .div1{
+        width: 425px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -317px;
+    }
+    .divhover{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 50px;
+    }
+
+    .divhover img{
+        width: 300px;
+    }
+}
+
+
+@media(max-width:375px){
+    .container{
+        width: 375px;
+        display: grid;
+        grid-template-columns: 50px ;
+        /* gap: 5px 110px; */
+        margin-right: 350px;
+    }
+    .div1{
+        width: 425px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -350px;
+     }
+     .divhover{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 60px;
+    
+     }
+}
+
+

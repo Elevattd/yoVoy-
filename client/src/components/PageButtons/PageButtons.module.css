@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.buttons_container{
+  border-radius: 15px;
+  padding: 1px;
+  background: #ffffff;
+}

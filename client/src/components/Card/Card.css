@@ -1,0 +1,125 @@
+.Card_bg{
+    /* border: 5px solid rgba(61, 55, 55, 0.568); */
+    /* background-color: rgba(128, 128, 128, 0.521); */
+    /* background-image: linear-gradient(180deg, rgba(255, 89, 0, 0.418), rgba(0, 81, 255, 0.253)); */
+    
+    background: radial-gradient(#111 50% #000 100%);
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    /* border-radius: 10%;
+    box-sizing: border-box; */
+    margin-top: 1em;
+    overflow: hidden;
+    position: relative;
+
+}
+
+img{
+    /* max-width: 100%; */
+    display: block;
+    width: 600px;
+}
+
+.Card_bg img {
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+
+.Card_bg:hover img{
+    transform: scale(0.9) translateY(20px);
+    opacity: 0.3;
+} 
+
+
+.Card_a{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Card_bg_li{
+   position: absolute;
+   left: -25px;
+   bottom: 75px;
+   width: 100%;
+   /* padding: 15px; */
+   text-align: center;
+   color: #fff;
+   
+}
+.Card_bg_li a{
+    color: #fff;
+    background: #34aff3;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.Card_bg_li a:hover{
+    background: #0e6290;
+}
+
+.Card_bg:hover .Card_bg_li a{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.Card_bg img{
+    width: 85%;
+    height: 70%;
+    margin-left: 2%;
+}
+
+
+
+@media (max-width:1440px){
+    .Card_bg{
+        margin-left: 10px;
+    }
+    .Card_bg img{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .Card_bg_li{
+        margin-top: 55px;
+    }
+    .Card_bg_li a{
+        color: #fff;
+        background: #34aff3;
+        display: inline-block;
+        padding: 5px 0px ;
+        margin-left: 55px;
+        text-decoration: none;
+        border-radius: 5px;
+        transform: translateY(30px);
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+    .Card_bg:hover .Card_bg_li a{
+        transform: translateY(30px);
+        opacity: 1;
+    }
+
+}
+
+@media (max-width:1024px){
+      .Card_bg{
+        width: 250px;
+        height: 180px;
+        margin-left: 100%;
+    }
+    .bg-ul img{
+        margin-left: -1%;
+    }
+}
+
+@media (max-width:768px){
+    
+}

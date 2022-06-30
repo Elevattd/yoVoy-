@@ -1,0 +1,100 @@
+.cards-event-organization {
+    margin-left: 2px;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 5px;
+    display: grid;
+    justify-content: center;
+  }
+
+  .card-organization-event {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.143);
+    border-radius: 15px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 25px;
+    padding: 10px;
+  }
+  .container_btn_org{
+    display: flex;
+    justify-content: center;
+  }
+  .icon_plus{
+    color: #fff;
+    width: 27px;
+    height: 35px;
+  }
+  
+  .button-event-organization {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .legend-event-organization {
+    background-color: rgba(103, 103, 103, 0.526);
+      color: white;
+      padding: 5px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.62);
+      border-radius: 5px;
+  }
+  
+  .fieldset-event-organization  {
+    border-color: rgba(255, 255, 255, 0.62);
+    border: 9px groove (internal value);
+    border-radius: 7px;
+  }
+  .link_a{
+    text-decoration: none;
+  }
+
+  .btn-event-organization {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 250px;
+    background: #1746ae98;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 7px 13px 37px #000; 
+  }
+  
+  .btn-event-organization:hover {
+    background-color: #4f43f3;
+    color: white;
+  }
+
+  @media (max-width:1024px){
+    .cards-event-organization{
+      grid-template-columns: 300px 300px 300px;
+    }
+  }
+
+  @media (max-width:768px){
+    .cards-event-organization{
+      grid-template-columns: 300px 300px;
+    }
+  }
+
+  @media (max-width:425px){
+    .cards-event-organization{
+      grid-template-columns: 300px;
+    }
+  }
+

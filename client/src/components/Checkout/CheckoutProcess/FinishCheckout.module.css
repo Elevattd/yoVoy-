@@ -1,0 +1,17 @@
+.container {
+	background: url(../../../img/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+	overflow: auto;
+	color: #fff;
+	align-items: center;
+	text-align: center;
+}
+
+.container img {
+	display: block;
+	margin: auto;
+}

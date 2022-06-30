@@ -1,0 +1,93 @@
+.container {
+	/* display: contents; */
+	/* display: column;
+	grid-template-columns: 10% 10% 10% 10%;
+	justify-content: space-evenly;
+	gap: 10px;
+	margin-right: auto; */
+	text-align: center;
+	color: #fff;
+  background-color: rgba(0, 0, 0, 0.753);
+  height: auto;
+  min-height: 89vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.cardEvent {
+  display: flex;
+  width: 80%;
+  height: auto;
+  padding: 30px 0px 50px 0px;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.fieldset_event_detail{
+	border-color: rgba(255, 255, 255, 0.62);
+    border: 9px groove (internal value);
+    border-radius: 7px;
+	background-color: rgba(240, 255, 255, 0.059);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 750px;
+}
+
+.fieldset_event_content{
+  padding: 30px;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.main_img{
+  width:30%;
+  min-width: 375px;
+  height: auto;
+}
+
+.dates{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.each_date{
+  background-color: rgba(0, 0, 0, 0.473);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 7px;
+}
+
+.request_accepted{
+  background-color: #0b580ba6;
+}
+
+.request_rejected{
+  background-color: #810d0da6;
+}
+
+@media(max-width: 768px){
+  .fieldset_event_detail{
+    flex-direction: column;
+    width: 350px;
+  }
+  .fieldset_event_img{
+    min-width: 350px;
+    height: auto;
+  }
+}

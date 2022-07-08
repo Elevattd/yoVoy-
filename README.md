@@ -1,7 +1,7 @@
 # yoVoy! - 
 
 <p align="left">
-  <img height="150" src="./pokemon.png" />
+  <img height="150" src="./client/src/img/logo1.png" />
 </p>
 
 ## Objetivos generales:
